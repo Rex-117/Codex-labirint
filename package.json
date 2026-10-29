@@ -1,0 +1,28 @@
+{
+  "name": "codex-labirint",
+  "version": "1.0.0",
+  "description": "Hollow — a cinematic survival labyrinth game",
+  "main": "script.js",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --outfile=script.js --format=iife",
+    "dev": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rex-117/Codex-labirint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rex-117/Codex-labirint/issues"
+  },
+  "homepage": "https://github.com/Rex-117/Codex-labirint#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
